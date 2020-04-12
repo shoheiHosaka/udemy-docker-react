@@ -10,8 +10,8 @@ script:
 
 deploy:
   provider: elasteicbeanstalk
-  region: "ap-north-east1"
-  app: UdemyDockerReact
+  region: "ap-northeast-1"
+  app: udemy-docker-react
   env: "UdemyDockerReact-env"
   bucket_name: "elasticbeanstalk-ap-northeast-1-064720504409"
   bucket_path: "UdemyDockerReact"
